@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,113 +9,151 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header class="header" id="header">
         <div class="header__container">
-        <div class="header__burger-menu" id="burgerMenu">
-            <div class="header__burger-line"></div>
-            <div class="header__burger-line header__burger-line--middle"></div>
-            <div class="header__burger-line"></div>
-        </div>
-        <div class="header__social-media">
-            <img class="header__social-icon" src="/img/Media3.svg" alt="Facebook">
-            <img class="header__social-icon" src="/img/Media2.svg" alt="Instagram">
-            <img class="header__social-icon" src="/img/Media1.svg" alt="Github">
-            <div class="header__social-line"></div>
-            <h3 class="header__social-title">Социальные сети</h3>
-        </div>
-            <div class="header__content">
-                <div class="header__circle"></div>
-                <h3 class="header__description">Меня зовут Александра Смит</h3>
-                <h1 class="header__title">Я web-разработчик из города Москва</h1>
-                <button class="header__button header__button--portfolio">Портфолио</button>
-                <button class="header__button header__button--aboutMe">Про меня</button>
+            <div class="header__burger-menu" id="burgerMenu">
+                <div class="header__burger-line"></div>
+                <div class="header__burger-line header__burger-line--middle"></div>
+                <div class="header__burger-line"></div>
             </div>
-        </div>
-        <div class="header__menu" id="headerMenu">
-            <img class="header__menu-close" id="closeMenu" src="/img/Close.svg" alt="Close">
-            <ul class="header__menu-list">
-                <li class="header__menu-item"><a class="header__menu-link" href="#">про меня</a></li>
-                <li class="header__menu-item"><a class="header__menu-link" href="#">мой опыт</a></li>
-                <li class="header__menu-item"><a class="header__menu-link" href="#">мои навыки</a></li>
-                <li class="header__menu-item"><a class="header__menu-link" href="#">мои работы</a></li>
-                <li class="header__menu-item"><a class="header__menu-link" href="#">прайс-лист</a></li>
-                <li class="header__menu-item"><a class="header__menu-link" href="#">контакты</a></li>
-            </ul>
-            <div class="header__menu-social">
-                <img class="header__menu-social-icon header__menu-social-icon--github" src="/img/MenuGithub.svg" alt="Github">
-                <img class="header__menu-social-icon header__menu-social-icon--instagram" src="/img/MenuInstagram.svg" alt="Instagram">
-                <img class="header__menu-social-icon header__menu-social-icon--facebook" src="/img/MenuFacebook.svg" alt="Facebook">
+            <div class="header__menu" id="headerMenu">
+                <img class="header__menu-close" id="closeMenu" src="/img/Close.svg" alt="Close">
+                <ul class="header__menu-list">
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="#">про меня</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="#">мой опыт</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="#">мои навыки</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="#">мои работы</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="#">прайс-лист</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="#">контакты</a>
+                    </li>
+                </ul>
+                <div class="header__menu-social">
+                    <img class="social-icon header__menu-social-icon" src="/img/MenuGithub.svg" alt="Github"
+                        onclick="window.open('https://github.com', '_blank')">
+                    <img class="social-icon header__menu-social-icon" src="/img/MenuInstagram.svg" alt="Instagram"
+                        onclick="window.open('https://instagram.com', '_blank')">
+                    <img class="social-icon header__menu-social-icon" src="/img/MenuFacebook.svg" alt="Facebook"
+                        onclick="window.open('https://facebook.com', '_blank')">
+                </div>
             </div>
         </div>
     </header>
     <main>
+        <section class="main">
+            <div class="main__container">
+                <div class="main__social-media">
+                    <img class=" social-icon main__social-media-icon" src="/img/Media3.svg" alt="Facebook"
+                        onclick="window.open('https://facebook.com', '_blank')">
+                    <img class="social-icon main__social-media-icon" src="/img/Media2.svg" alt="Instagram"
+                        onclick="window.open('https://instagram.com', '_blank')">
+                    <img class="social-icon main__social-media-icon" src="/img/Media1.svg" alt="Github"
+                        onclick="window.open('https://github.com', '_blank')">
+                    <div class="main__social-media-line"></div>
+                    <span class="main__social-media-title">Социальные сети</span>
+                </div>
+                <div class="main__content">
+                    <div class="circle circle--orange main__circle"></div>
+                    <p class="main__subtitle">Меня зовут Александра Смит</p>
+                    <h1 class="main__title">Я web-разработчик из города Москва</h1>
+                    <button class="main__button main__button--portfolio">Портфолио</button>
+                    <button class="main__button main__button--about-me">Про меня</button>
+                </div>
+            </div>
+        </section>
         <section class="benefit">
             <div class="benefit__container">
-                <div class="benefit__circle"></div>
-                <h3 class="benefit__experience">Опыт</h3>
+                <div class="circle circle--orange benefit__circle"></div>
+                <p class="benefit__subtitle">Опыт</p>
                 <h2 class="benefit__title">Чем я буду полезна</h2>
-                <div class="benefit__line"></div>
+                <div class="line benefit__line"></div>
                 <div class="benefit__content">
-                    <div class="benefit__content-education">
-                        <div class="benefit__content-circle"></div>
-                        <div class="benefit__content-line"></div>
-                        <h2 class="benefit__content-title">Образование</h2>
-                        <div class="benefit__content-item">
-                            <div class="benefit__item-top">
-                                <div class="benefit__item-line"></div>
-                                <div class="benefit__item-circle"></div>
-                                <img class="benefit__item-icon" src="/img/University.svg" alt="University">
-                                <div class="benefit__item-info">
-                                    <h3 class="benefit__item-title">МГТУ им. Н. Э. Баумана</h3>
-                                    <p class="benefit__item-degree">Диплом магистра | Москва (2014-2020)</p>
+                    <div class="roadmap">
+                        <div class="roadmap__circle"></div>
+                        <div class="roadmap__line"></div>
+                        <h3 class="roadmap__title">Образование</h3>
+                        <div class="roadmap__item">
+                            <div class="roadmap__item-top">
+                                <div class="roadmap__item-line"></div>
+                                <div class="circle circle--orange roadmap__item-circle"></div>
+                                <img class="roadmap__item-icon" src="/img/University.svg" alt="University">
+                                <div class="roadmap__item-info">
+                                    <h4 class="roadmap__item-title">МГТУ им. Н. Э. Баумана</h4>
+                                    <p class="roadmap__item-subtitle">Диплом магистра | Москва (2014-2020)</p>
                                 </div>
                             </div>
-                            <p class="benefit__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo.</p>
+                            <p class="roadmap__item-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.
+                            </p>
                         </div>
-                        <div class="benefit__content-item">
-                            <div class="benefit__item-top">
-                                <div class="benefit__item-line"></div>
-                                <div class="benefit__item-circle"></div>
-                                <img class="benefit__item-icon" src="/img/Courses.svg" alt="Courses">
-                                <div class="benefit__item-info">
-                                    <h3 class="benefit__item-title">Udemy</h3>
-                                    <p class="benefit__item-degree">Курсы по Web-разработке</p>
+                        <div class="roadmap__item">
+                            <div class="roadmap__item-top">
+                                <div class="roadmap__item-line"></div>
+                                <div class="circle circle--orange roadmap__item-circle"></div>
+                                <img class="roadmap__item-icon" src="/img/Courses.svg" alt="Courses">
+                                <div class="roadmap__item-info">
+                                    <h4 class="roadmap__item-title">Udemy</h4>
+                                    <p class="roadmap__item-subtitle">Курсы по Web-разработке</p>
                                 </div>
                             </div>
-                            <p class="benefit__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo.</p>
+                            <p class="roadmap__item-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.
+                            </p>
                         </div>
                     </div>
-                    <div class="benefit__content-experience">
-                        <div class="benefit__content-circle"></div>
-                        <div class="benefit__content-line"></div>
-                        <h2 class="benefit__content-title">Опыт работы</h2>
-                        <div class="benefit__content-item">
-                            <div class="benefit__item-top">
-                                <div class="benefit__item-line"></div>
-                                <div class="benefit__item-circle"></div>
-                                <img class="benefit__item-icon" src="/img/Developer.svg" alt="Developer">
-                                <div class="benefit__item-info">
-                                    <h3 class="benefit__item-title">Front-End Developer</h3>
-                                    <p class="benefit__item-company">EPAM | Москва (2018-2019)</p>
+                    <div class="roadmap">
+                        <div class="roadmap__circle"></div>
+                        <div class="roadmap__line"></div>
+                        <h3 class="roadmap__title">Опыт работы</h3>
+
+                        <div class="roadmap__item">
+                            <div class="roadmap__item-top">
+                                <div class="roadmap__item-line"></div>
+                                <div class="circle circle--orange roadmap__item-circle"></div>
+                                <img class="roadmap__item-icon" src="/img/Developer.svg" alt="Developer">
+                                <div class="roadmap__item-info">
+                                    <h3 class="roadmap__item-title">Front-End Developer</h3>
+                                    <p class="roadmap__item-subtitle">EPAM | Москва (2018-2019)</p>
                                 </div>
                             </div>
-                            <p class="benefit__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo.</p>
+                            <p class="roadmap__item-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.
+                            </p>
                         </div>
-                        <div class="benefit__content-item">
-                            <div class="benefit__item-top">
-                                <div class="benefit__item-line"></div>
-                                <div class="benefit__item-circle"></div>
-                                <img class="benefit__item-icon" src="/img/designer.svg" alt="Designer">
-                                <div class="benefit__item-info">
-                                    <h3 class="benefit__item-title">UI/UX Designer</h3>
-                                    <p class="benefit__item-company">Squad Team | Москва (2018)</p>
+                        <div class="roadmap__item">
+                            <div class="roadmap__item-top">
+                                <div class="roadmap__item-line"></div>
+                                <div class="circle circle--orange roadmap__item-circle"></div>
+                                <img class="roadmap__item-icon" src="/img/designer.svg" alt="Designer">
+                                <div class="roadmap__item-info">
+                                    <h3 class="roadmap__item-title">UI/UX Designer</h3>
+                                    <p class="roadmap__item-subtitle">Squad Team | Москва (2018)</p>
                                 </div>
                             </div>
-                            <p class="benefit__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo.</p>
+                            <p class="roadmap__item-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -123,39 +162,47 @@
         <section class="contacts">
             <div class="contacts__container">
                 <div class="contacts__content">
-                <img class="contacts__photo" src="/img/Photo.png" alt="Photo">
-                <div class="contacts__info">
-                    <div class="contacts__circle"></div>
-                    <h3 class="contacts__subtitle">Контакты</h3>
-                    <h2 class="contacts__title">Свяжитесь со мной</h2>
-                    <div class="contacts__line"></div>
-                    <p class="contacts__description">Любым удобным для вас способом:</p>
-                    <div class="contacts__social-media">
-                        <img class="contacts__social-icon contacts__social-icon_facebook" src="/img/Facebook.svg" alt="Facebook">
-                        <img class="contacts__social-icon contacts__social-icon_telegram" src="/img/Telegram.svg" alt="Telegram">
-                        <img class="contacts__social-icon contacts__social-icon_instagram" src="/img/Instagram.svg" alt="Instagram">
+                    <img class="contacts__photo" src="/img/Photo.png" alt="Photo">
+                    <div class="contacts__info">
+                        <div class="circle circle--orange contacts__circle"></div>
+                        <p class="contacts__subtitle">Контакты</p>
+                        <h2 class="contacts__title">Свяжитесь со мной</h2>
+                        <div class="line contacts__line"></div>
+                        <p class="contacts__description">Любым удобным для вас способом:</p>
+                        <div class="contacts__social-media">
+                            <img class="social-icon contacts__social-icon" src="/img/Facebook.svg" alt="Facebook"
+                                onclick="window.open('https://facebook.com', '_blank')">
+                            <img class="social-icon contacts__social-icon contacts__social-icon--telegram"
+                                src="/img/Telegram.svg" alt="Telegram"
+                                onclick="window.open('https://t.me/yourTelegramUsername', '_blank')">
+                            <img class="social-icon contacts__social-icon" src="/img/Instagram.svg" alt="Instagram"
+                                onclick="window.open('https://instagram.com', '_blank')">
+                        </div>
+                        <p class="contacts__description">Или оставьте ваши данные и я сама вам напишу:</p>
+                        <form class="form" id="form">
+                            <div class="form-group">
+                                <input id="name" class="form-input">
+                                <label for="name" class="label">Ваше имя</label>
+                                <span class="error-message" id="nameError"></span>
+                            </div>
+                            <div class="form-group">
+                                <input id="email" class="form-input">
+                                <label for="email" class="label">Ваша почта</label>
+                                <span class="error-message" id="emailError"></span>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" class="form-textarea"></textarea>
+                                <label for="message" class="label">Ваше сообщение</label>
+                                <span class="error-message" id="messageError"></span>
+                            </div>
+                            <button type="submit" class="button">Отправить сообщение</button>
+                        </form>
                     </div>
-                    <p class="contacts__description">Или оставьте ваши данные и я сама вам напишу:</p>
-                    <div class="contacts__form">
-                        <div class="contacts__input">
-                            <input type="text" id="name" class="contacts__input-field" required>
-                            <label for="name" class="contacts__input-label">Ваше имя</label>
-                        </div>
-                        <div class="contacts__input">
-                            <input type="email" id="email" class="contacts__input-field" required>
-                            <label for="email" class="contacts__input-label">Ваша почта</label>
-                        </div>
-                        <div class="contacts__input">
-                            <textarea id="message" class="contacts__input-field--message" required></textarea>
-                            <label for="message" class="contacts__input-label">Ваше сообщение</label>
-                        </div>
-                    </div>
-                    <button class="contacts__button">Отправить сообщение</button>
                 </div>
-            </div>
             </div>
         </section>
     </main>
     <script src="/script.js"></script>
 </body>
+
 </html>
